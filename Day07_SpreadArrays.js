@@ -25,8 +25,8 @@ skills=[...languages,...duty]
 console.log(skills);//["java", "javascript", "python", "develop", "test", "deploy"]
 skills=['java','javascript',...duty,'cleaning']
 console.log(skills);//["java", "javascript", "develop", "test", "deploy", "cleaning"]
-//We can use spread operator to get eh copy of the original array
-//getting the copy of ht elanguages array
+//We can use spread operator to get the copy of the original array
+//getting the copy of the languages array
 var copyOfLanguages=languages;
 console.log(copyOfLanguages);//["java", "javascript", "python"]
 //languages and copyOfLanguages are pointing same place in the memory
@@ -34,7 +34,7 @@ console.log(copyOfLanguages);//["java", "javascript", "python"]
 copyOfLanguages.push('rubby')
 console.log(copyOfLanguages);//["java", "javascript", "python", "rubby"]
 console.log(languages);//["java", "javascript", "python", "rubby"]
-//With spread operator, we can maka a new bopy of the original array
+//With spread operator, we can maka a new body of the original array
 //So when I edit copy, original will not be affected
 var copyWithSpread=[...languages];
 console.log(copyWithSpread);//["java", "javascript", "python", "rubby"]

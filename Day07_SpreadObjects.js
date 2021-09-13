@@ -25,4 +25,12 @@ const fullName={
     username:'007'
   };
   console.log(userInfo);
+  /*
+  [object Object] {
+  fName: "James",
+  id: 1,
+  lName: "Bond",
+  username: "007"
+}
+*/
   

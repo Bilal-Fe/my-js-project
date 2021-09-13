@@ -14,11 +14,11 @@ let fillWith10 = nums.fill('orange', 2,5);
 console.log(fillWith10); //[1, 1, 'orange', 'orange', 'orange', 1]
 ​
 ​
-//TASK : write a function that returns the array filled with inremented numbers. 
+//TASK : write a function that returns the array filled with incremented numbers. 
 //Example : 
 function fillNumbers(len) {
 return Array(len) //creating array with length of 'len'
-.fill(0) //startt with 0 
+.fill(0) //start with 0 
 .map((input, index) => index+1) //return the index +1 in each loop so we can get 0+1. 0+1+1, 0+1+1+1
 }
 console.log(fillNumbers(3)); //[1, 2, 3]

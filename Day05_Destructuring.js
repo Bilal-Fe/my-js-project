@@ -1,6 +1,6 @@
 /*
 DESTRUCTURING :
-1. Object destructing
+1. Object detrtucturing
 2. function detrtucturing
 3. Array destructuring
 */
@@ -25,7 +25,7 @@ console.log(location1);//"Dallas"
 console.log(email1);//"sam@fakeemail.com"
 
 //Destructuring the user objects
-//benefit is we can access the data direclty withour . or [] notation
+//benefit is we can access the data direclty without . or [] notation
 // NOTE: key names must match to the original object
 //if keys doesn't match then data will be undefined
 //For example:
